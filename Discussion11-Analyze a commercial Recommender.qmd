@@ -1,0 +1,40 @@
+---
+title: "Discussion 11: Analyze a commercial Recommender"
+author: "Kristoff Oliphant"
+format: html
+editor: visual
+---
+
+**Introduction:**
+
+So I decided to select Sephora as a site because I know they should have a good recommender system with such a variety of customers with different needs like makeup, haircare and fragrances.
+
+## Scenario Design Analysis
+
+I think it makes sense to perform this twice or more because the goals of a shopper are usually different from the goals of the retailer.
+
+## For the customers
+
+**Who:** Someone searching for hair care products that help with growth.
+
+**Goals:** Finding products that match their specific hair needs without needing to scroll through the entire catalog.
+
+**How:** By providing "Similar products" sections based on similar item attributes and "Use it with" for items that can help supplement it
+
+## For the organization (Sephora)
+
+**Who:** Sephora’s marketing and inventory teams.
+
+**Goals:** Increasing Basket Size to get someone to buy 3 items instead of 1 and encouraging the sale of other trending items.
+
+**How:** By using "You May Also Like" to encourage add-on purchases like a conditioner to go with a shampoo.
+
+## Reverse Engineering
+
+From the site interface, Sephora might be doing some Collaborative Filtering. When they show "You may also like" which could be showing results of similar purchases customers made after either buying or viewing this product.
+
+Content-Based Filtering can be something else they use for product highlights like Clean, Vegan, and Peptide to suggest items with similar ingredients or features based on what a user may like.
+
+## Recommendations for Improvement
+
+For new users who haven't bought anything yet and don't know where to start, Sephora could provide a quiz with different categories like either hair, skin, makeup, or fragrances at the start of their website or account creation. This can help gather immediate data on a user and can quickly direct them to products they may readily purchase.
